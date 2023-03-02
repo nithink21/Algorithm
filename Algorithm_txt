@@ -1,0 +1,14 @@
+Algorithm
+1st way -Algorithm to find Second Largest Number in Array.
+1.	Take input numbers into Array.
+2.	Find the total numbers in array.
+3.	Sort the Array (use sort()).
+4.	Print the Array[n-2] number.
+----------------------------------------------------------
+2nd way- Algorithm to find Second Largest Number in Array.
+1.	Take input numbers into Array
+2.	Take two variables 1st max=INT_MIN and 2nd max=INT_MIN
+3.	Iterate through array if current value in array is greater than 1st max then update 2nd max = 1st max and 1st max=current value in array
+4.	After completing 3rd step, Print 2ndmax.
+
+ 
